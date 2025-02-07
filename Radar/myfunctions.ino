@@ -1,4 +1,8 @@
-// Funktionen mäter distansen från ultraljudsensorn, parametrar: void, returnerar distans.
+/* 
+Funktionen mäter distansen från ultraljudsensorn.
+Parametrar: void.
+Returnerar distans.
+*/
 int measureDist() {
   digitalWrite(trig, HIGH);
   delay(0);
